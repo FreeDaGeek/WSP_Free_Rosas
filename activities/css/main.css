@@ -18,7 +18,7 @@ h2, h3 {
 }
 h2{
 	box-shadow: 0 0 5px 5px #333;
-	background-image: url("../images/bk_brown.jpg");
+	/*background-image: url("../images/bk_brown.jpg");*/
 	padding: 10px;
 }
 /*====headertags-end======*/
@@ -26,7 +26,7 @@ header{
 	box-shadow: 0 0 5px 5px #333;
 	max-width: 900px;
 	padding: 0 10px;
-	background-image: url("../images/bk_brown.jpg");
+	/*background-image: url("../images/bk_brown.jpg");*/
 	text-align: center;
 }
 
