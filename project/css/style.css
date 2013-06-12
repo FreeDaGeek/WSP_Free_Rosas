@@ -1,0 +1,26 @@
+/*body, div, ul, ol, li, h1, h2, h3, form, fieldset, input, textarea, p, th, td { 
+	padding: 0;
+	margin: 0;
+	}
+fieldset, img { 
+	border: 0;
+	}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	}
+ol, ul {
+	list-style: none;
+	}
+address, caption, em, strong, th,{
+	font-weight: normal;
+	font-style: normal;
+	}
+caption, th {
+	text-align: left;
+	}
+h1, h2, h3, {
+	font-weight: normal;
+	font-size: 100%;
+	}
+	/*=========RESET ^^ END==============*/
