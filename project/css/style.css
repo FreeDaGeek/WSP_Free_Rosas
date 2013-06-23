@@ -37,7 +37,7 @@ h1, h2, h3, {
 	}
 	   
 	h1, h2, section{ 
-	max-width: 800px;
+	max-width: 900px;
 	
 	}
 	
@@ -71,7 +71,7 @@ h1, h2, h3, {
 		padding-top: 10px;
 	}
 	
-	/*=====================================================*/
+	/*==================CONTACTUS============================*/
 	
 	#contact{
 	
@@ -101,7 +101,29 @@ h1, h2, h3, {
 	
 	.reqpar{
 		color: red;
+	
 	}
+	
+	
+	/*===========INDEX=================*/
+	
+	.home{
+	margin: 10px 20px auto;
+	max-width: 500px;
+	
+		padding-left:50px;
+	}
+	.home img{
+	margin-left: 50px;
+		float: right;
+		border: 3px solid #000;
+		
+	}
+	
+	.wrapper{
+		max-width: 900px;
+	}
+	
 	/*=========NAV+START========*/
 	nav ul{
 	width: 700px;
