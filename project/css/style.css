@@ -1,4 +1,4 @@
-/*body, div, ul, ol, li, h1, h2, h3, form, fieldset, input, textarea, p, th, td { 
+body, div, ul, ol, li, h1, h2, h3, form, fieldset, input, textarea, p, th, td { 
 	padding: 0;
 	margin: 0;
 	}
@@ -32,7 +32,7 @@ h1, h2, h3, {
 	} 
 	body, header img, footer img{
 		max-width:960px;
-		padding-bottom: 20px;
+		padding-bottom: 10px;
 	}
 	   
 	h1, h2, section{ 
@@ -41,9 +41,10 @@ h1, h2, h3, {
 	;
 	}
 	section{
-		max-width: 300px;	
+		max-width: 400px;	
 		float: left;
-		border: 2px solid #333;
+		padding-left:40px;
+		margin-left:20px;
 	}
 	}
 	header img{
@@ -53,22 +54,26 @@ h1, h2, h3, {
 	
 	footer img{
 		/*max-width: 800px;*/
+		
 	}
 	
 	#prices{
-		max-width: 300px;	
+		max-width: 400px;	
 		float: right;
-		border: 2px solid #333;
+		padding-right: 40px;
+		margin-right:20px;
+		
 	}
 	
 	
 	/*=========NAV+START========*/
 	nav ul{
-	border: 2px solid #333;
+	
+	
 	width: 700px;
-	padding: 0px;
 	float: right;
-	margin: 20px;
+	margin: 5px;
+	padding-right: 40px;
 	overflow: hidden;
 	}
 	nav ul li{
@@ -76,6 +81,7 @@ h1, h2, h3, {
 	padding: 5px;
 	float:left;
 	font-size: 16px;
+	
 	}
 	a:link{
 	color: navy;
@@ -107,11 +113,11 @@ h1, h2, h3, {
 		}
 		
 		
-	nav a{
+	/*nav a{
 	text-decoration: none;
 	display: inline;
 	height:30px;
 	line-height:30px;
-	text-align: center;
+	text-align: left;
 	}
 	/*=========NAV+END==========*/
