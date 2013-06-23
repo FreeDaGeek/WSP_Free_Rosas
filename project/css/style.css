@@ -38,15 +38,17 @@ h1, h2, h3, {
 	h1, h2, section{ 
 	max-width: 800px;
 	
-	;
 	}
+	
+	/*==================Pet Sitting & Dog Walking=============*/
 	section{
+		padding-top: 10px;
 		max-width: 400px;	
 		float: left;
 		padding-left:40px;
 		margin-left:20px;
 	}
-	}
+	
 	header img{
 		
 		/*max-width: 800px;*/
@@ -64,8 +66,30 @@ h1, h2, h3, {
 		margin-right:20px;
 		
 	}
+	#prices img{
+		padding-top: 10px;
+	}
 	
+	/*=====================================================*/
 	
+	#contact_form{
+		text-align: center;
+		;
+		margin: 20px;
+
+	}
+	
+	#contact_form h2{
+		padding-bottom: 3px;
+		margin: 20px;
+	}
+	div{
+		padding: 5px;
+	}
+	
+	.reqpar{
+		color: red;
+	}
 	/*=========NAV+START========*/
 	nav ul{
 	
