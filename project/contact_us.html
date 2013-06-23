@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<title>Eric's Pet Service's</title>
 	<meta charset="utf-8">
@@ -17,8 +9,8 @@
 </head>
 <body>
 	<header>
-	<h1>Eric's Pet Services</h1> <div class="fb-like" data-href="https://www.facebook.com/ericspetservices?fref=ts" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true"></div>
-	</header>
+	<img src="images/headerbar.psd" alt="header"/>
+</header>
 	<nav>
 		<ul>
 		<li><a href="index.html.html">Home</a></li>
@@ -39,7 +31,21 @@
 			</div>
 			<div>
 				<label for="lname">Last Name:</label>
-				<input id="lname" type="text" name="Last Name" placeholder="Smith" required="required"><span class="req">*</span>
+				<input id="lname" type="text" name="Last Name" placeholder="Smith"><span class="req">*</span>
+			</div>
+			<div>
+				<label for="lname">Number of Pets</label>
+				<input id="pets" type="text" name="Number of Pets" placeholder="0"><span class="req">*</span>
+			</div>
+			<div>
+				<label for="service">Services Needed</label>
+				<select id="state" name="State" required="required">
+					<option value="" selected="selected">Pick a Service</option>
+					<option value="FL">Pet Sitting</option>
+					<option value="FL">Dog Walking</option>
+					<option value="FL">Home Sitting</option>
+					<option value="FL">Airport/Port Transportation</option>
+				</select><span class="req">*</span>
 			</div>
 			<div>
 				<label for="address1">Address:</label>
@@ -76,7 +82,9 @@
 		</form>
 	</div>
 	</div>
+	<img src="images/PSI.jpg" alt="PSI"/></li><img src="images/paypal.jpg" alt="Paypal"/></li><img src="images/yelp.jpg" alt="Yelp"/></li><img src="images/PLazaDeal.jpg" alt="PLazaDeal"/></li><img src="images/Angie'sList.jpg" alt="AngiesList"/></li>
 </body>
-<footer> Copyright Information <img src="images/PSI.jpg" alt="PSI"/></li><img src="images/paypal.jpg" alt="Paypal"/></li><img src="images/yelp.jpg" alt="Yelp"/></li><img src="images/PLazaDeal.jpg" alt="PLazaDeal"/></li><img src="images/Angie'sList.jpg" alt="AngiesList"/></li>
+<footer>
+<img src="images/footer.psd" alt="footer"/>
 </footer>	
 </html>
