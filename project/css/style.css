@@ -1,4 +1,4 @@
-body, div, ul, ol, li, h1, h2, h3, form, fieldset, input, textarea, p, th, td { 
+/*body, div, ul, ol, li, h1, h2, h3, form, fieldset, input, textarea, p, th, td { 
 	padding: 0;
 	margin: 0;
 	}
@@ -25,284 +25,93 @@ h1, h2, h3, {
 	}
 	/*=========RESET ^^ END==============*/
 	
-	html { 
 	
-	
+	body{ 
+	/*max-width: 800px;*/
+	background-image: url("../images/linen_bg.jpg");
 	} 
-	
-	body { 
-	
-	
-	} 
-	
-	
-	/*******************************************************************
-	LAYOUT
-	*******************************************************************/
-	
-	div { 
-	
-	
-	} 
-	
-	span { 
-	
-	
-	} 
-	
-	.reqpar { 
-	
-	
-	} 
-	
-	.req { 
-	
-	
-	} CONTACT US ABOVE!!!
-	
-	html { 
-	
-	
-	} 
-	
-	body { 
-	
-	
-	} 
-	
-	
-	/*******************************************************************
-	LAYOUT
-	*******************************************************************/
-	
-	div { 
-	
-	
-	} 
-	
-	#intro { 
-	
-	
-	} 
-	
-	.wrapper { 
-	
-	
-	} 
-	
-	DOG WALKING ABOVE!!!!
-	
-	html { 
-	
-	
-	} 
-	
-	body { 
-	
-	
-	} 
-	
-	
-	/*******************************************************************
-	LAYOUT
-	*******************************************************************/
-	
-	div { 
-	
-	
-	} 
-	
-	#gallery { 
-	
-	
-	} 
-	
-	header { 
-	
-	
-	} 
-	
-	nav { 
-	
-	
-	} 
-	
-	footer { 
-	
-	
-	} 
-	
-	
-	/*******************************************************************
-	LINKS
-	*******************************************************************/
-	
-	a { 
-	
-	
-	} 
-	
-	
-	/*******************************************************************
-	TYPOGRAPHY
-	*******************************************************************/
-	
-	h1 { 
-	
-	
-	} 
-	
-	
-	/*******************************************************************
-	LISTS
-	*******************************************************************/
-	
-	ul { 
-	
-	
-	} 
-	
-	li { 
-	
-	
-	} 
-	
-	
-	/*******************************************************************
-	IMAGES, VIDEO & AUDIO
-	*******************************************************************/
-	
-	img { 
-	
-	
-	} 
-	
-	GALLERY ABOVE!!!!
-	
-	html { 
-	
-	
-	} 
-	
-	body { 
-	
-	
-	} 
-	
-	
-	/*******************************************************************
-	LAYOUT
-	*******************************************************************/
-	
-	div { 
-	
-	
-	} 
-	
-	.fb-like { 
-	
-	
-	} 
-	
-	INDEX & Pet Sitting ABOVE!!!
-	html { 
-	
-	
-	} 
-	
-	body { 
-	
-	
-	} 
-	
-	
-	/*******************************************************************
-	LAYOUT
-	*******************************************************************/
-	
-	div { 
-	
-	
-	} 
-	
-	#about { 
-	
-	
-	} 
-	
-	#reviews { 
-	
-	
-	} 
-	
-	header { 
-	
-	
-	} 
-	
-	nav { 
-	
-	
-	} 
-	
-	footer { 
-	
-	
-	} 
-	
-	
-	/*******************************************************************
-	LINKS
-	*******************************************************************/
-	
-	a { 
-	
-	
-	} 
-	
-	
-	/*******************************************************************
-	TYPOGRAPHY
-	*******************************************************************/
-	
-	h1 { 
-	
-	
-	} 
-	
-	h2 { 
-	
-	
-	} 
-	
-	p { 
-	
-	
-	} 
-	
-	
-	/*******************************************************************
-	LISTS
-	*******************************************************************/
-	
-	ul { 
-	
-	
-	} 
-	
-	li { 
-	
-	
-	} 
-	
-	
-	/*******************************************************************
-	IMAGES, VIDEO & AUDIO
-	*******************************************************************/
-	
-	img { 
-	
-	
-	} 
-	
-	ABOUT ABOVE!!!!!
+	body, header img, footer img{
+		max-width:960px;
+		padding-bottom: 20px;
+	}
+	   
+	h1, h2, section{ 
+	max-width: 800px;
+	
+	;
+	}
+	section{
+		max-width: 300px;	
+		float: left;
+		border: 2px solid #333;
+	}
+	}
+	header img{
+		
+		/*max-width: 800px;*/
+	}
+	
+	footer img{
+		/*max-width: 800px;*/
+	}
+	
+	#prices{
+		max-width: 300px;	
+		float: right;
+		border: 2px solid #333;
+	}
+	
+	
+	/*=========NAV+START========*/
+	nav ul{
+	border: 2px solid #333;
+	width: 700px;
+	padding: 0px;
+	float: right;
+	margin: 20px;
+	overflow: hidden;
+	}
+	nav ul li{
+	width:100px;
+	padding: 5px;
+	float:left;
+	font-size: 16px;
+	}
+	a:link{
+	color: navy;
+	font-family: 'marker felt', sans-serif;
+	text-decoration: none;
+	text-align: left;
+}
+	
+	a:hover{
+	color: #3333ff;
+	text-decoration: underline;
+	font-family: 'marker felt', sans-serif;
+	background-color: green;
+	
+	
+	}
+	  a:active{
+	color:#ff6666;
+	text-decoration: none;
+	font-family: 'marker felt', sans-serif;
+	background-color: red;
+}
+		
+	  a:visited{
+	color:#666;
+	text-decoration:none;
+	font-family: 'marker felt', sans-serif;
+	
+		}
+		
+		
+	nav a{
+	text-decoration: none;
+	display: inline;
+	height:30px;
+	line-height:30px;
+	text-align: center;
+	}
+	/*=========NAV+END==========*/
