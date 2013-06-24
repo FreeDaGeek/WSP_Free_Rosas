@@ -1,4 +1,4 @@
-body, div, ul, ol, li, h1, h2, h3, form, fieldset, input, textarea, p, th, td { 
+/*body, div, ul, ol, li, h1, h2, h3, form, fieldset, input, textarea, p, th, td { 
 	padding: 0;
 	margin: 0;
 	}
@@ -136,7 +136,7 @@ h1, h2, h3, {
 	
 	}
 	a:link{
-	color: ;
+	color: #444;
 	font-family: 'marker felt', sans-serif;
 	text-decoration: none;
 	text-align: left;
@@ -165,14 +165,6 @@ h1, h2, h3, {
 }
 		
 		
-	nav a{
-	text-decoration: none;
-	display: inline;
-	height:30px;
-	line-height:30px;
-	text-align: left;
-	}
-
 	/*=========NAV+END==========*/
 
 	/*==========About US=========*/
