@@ -203,4 +203,19 @@ h1, h2, h3, {
 		padding-bottom: 40px;
 	}
 
+	/*=========Gallery=========*/
+
+#gallery img{
+list-style-type: none;
+width: 30%;
+height: 300px;
+float: right;
+padding:10px;
+}
+
+
+ h1, h2 {
+ 	font-family: 'marker felt', sans-serif;
+ }
+
 
