@@ -122,6 +122,7 @@ h1, h2, h3, {
 	
 	/*=========NAV+START========*/
 	nav ul{
+	text-decoration: none;
 	width: 700px;
 	float: right;
 	margin: 5px;
@@ -129,10 +130,13 @@ h1, h2, h3, {
 	overflow: hidden;
 	}
 	nav ul li{
+	text-decoration: none;
+	list-style: none;
 	width:100px;
 	padding: 5px;
 	float:left;
-	font-size: 16px;
+	font-size: 16px; 
+	
 	
 	}
 	a:link{
