@@ -79,9 +79,9 @@ nav ul{
 
 /*=========END===========*/
 /*=============INDEX==============*/
- body{
-		max-width: 800px;
-		 
+ html{
+		background-color: #cc9966;
+	 width: 1500px;
 
 	}
 
