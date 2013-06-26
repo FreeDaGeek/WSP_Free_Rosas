@@ -80,14 +80,13 @@ nav ul{
 /*=========END===========*/
 /*=============INDEX==============*/
  body{
-		max-width: 900px;
-		background-image: url(../images/linen_bg.jpg);
+		max-width: 800px;
 		 
 
 	}
 
  .wrapper{
-		
+		margin-left:120px;
 		max-width: 900px;
 		background-image: url(../images/linen_bg.jpg);
 		
@@ -101,10 +100,6 @@ nav ul{
 
 
 	}
-
-
-
-
 
 
  /*============END==========*/
@@ -159,10 +154,6 @@ ul{
 
 
 
-
-
-
-
  /*===============END================*/
 
  /*============GALLERY=============*/
@@ -189,4 +180,74 @@ ul{
  }
 
  /*==============END============*/
+
+ /*=============DOGWALKING=============*/
+
+#intro{
+	padding-top: 10px;
+	margin:20px;
+	max-width: 700px;
+	padding-right: 55px;
+	float: right;
+	text-indent: 10px;
+
+}
+
+span{
+	padding-top: 15px;
+	font-size: 24px;
+	font-weight: bold;
+	float: right;
+}
+
+
+ /*===================END==============*/
+ /*===========CONTACTUS=================*/
+
+#contact{
+		background-image: url(../images/linen_bg.jpg);
+		max-width: 400px;
+		text-align: right;
+		
+		padding-right:80px;
+		border:5px solid #333;
+			
+		
+	}
+	
+	#contact_form h2{
+		padding-top: 30px;
+		margin: 15px;
+
+		
+	}
+	
+	div{
+		padding: 5px;
+		text-align: center;
+		
+	}
+	
+	nav{
+		padding-bottom: 40px;
+	}
+	
+	.reqpar{
+		display: none;
+	
+	}
+
+.req{
+	display: none;
+
+}
+
+
+
+
+
+
+
+
+ /*===============END===============*/
 
