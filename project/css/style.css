@@ -37,7 +37,9 @@ header p{
 
 header img{
 	float: left;
-	
+	padding-top: 30px;
+	z-index: 
+
 }
 
 /*=============END==============*/
@@ -45,7 +47,7 @@ header img{
 
 nav ul{
 	text-decoration: none;
-	max-width: 700px;
+	max-width: 80%;
 	float: right;
 	margin: 5px;
 	padding-right: 40px;
@@ -88,15 +90,13 @@ nav ul{
 	color:#0066cc;
 	text-decoration:none;
 	font-family: 'marker felt', sans-serif;
-	background-color: ;
-}
-
 }
 
 /*=========END===========*/
 /*=============INDEX==============*/
  body{
-	border: 5px solid #333;
+	background-color: #1111;
+	max-width: 1000px;
 
 	}
 
@@ -108,26 +108,26 @@ nav ul{
 		
 	}
 	#list{
-		max-width: 800px;
+		max-width: 90%;
 		margin-right: 30px;
 		text-align: center;
 	
 	}
 	#list p{
 		float: right;
-		max-width: 250px;
+		max-width: 33.333%;/*250px*/
 		font-weight: bold;
-		font-size: 14px;
-		padding: 10px;
+		font-size: 0.875em; /*14px;*/
 		margin-top: 45px;
+		padding-left: 5px;
 
 	}
 	#list ul{
 		font-weight: bold;
-		font-size: 14px;
-		max-width: 250px;
+		font-size: 0.875em; /*14px;*/
+		max-width: 33.333%;/*250px;*/
 		float: left;
-		padding-right: 0 auto;
+		padding-right: auto;
 		margin-left: 25px;
 		list-style-type: circle;
 		text-align: left;
@@ -139,9 +139,10 @@ nav ul{
 	}
 
 	#list h1 , #list img{
-	padding:5px;
-	margin-left:50px;
+	margin-left:15px;
 	text-align: right;
+	max-width: 850px;
+
 	
 	}
 	img{
@@ -152,19 +153,21 @@ nav ul{
  /*============END==========*/
  /*============ABOUTUS=============*/
 	#about{
-		max-width: 700px;
-		background-image: url(../images/linen_bg.jpg);
+		max-width: 400px;
 		text-align: left;
 		padding:25px;
+		text-indent: 25px;
+		padding-bottom: 20px;
+		float: left;
 	}
-	#about img{
-
+	#mainimg{
 		float: right;
-		
+		margin-top: 60px;
+		margin-right: 60px;
 		
 	}
 	#about h1{
-		padding-top: 15px;
+		padding: 10px;
 
 	}
 	
@@ -204,18 +207,34 @@ ul{
  /*===============END================*/
 
  /*============GALLERY=============*/
+ #gallery ul li{
+overflow:hidden;
+width: 22.222222222222%;/*200px*/
+height: 22.222222222222%;/*200px*/
+float: left;
+padding-left: 20px;
+}
+#gallery img{
+list-style-type: none;
+padding: 10px;
+max-width: 200px;
+max-height: 180px;
 
- #gallery img{
- 	float: right;
- 	padding:10px;
+/*#gallery img{
+ 	max-width: 30%;
+
+ 	border: 3px solid #111;
+ 	
  }
 
 
 #gallery{
+	float:right;
 	text-align: center;
-	padding-top:45px;
+	padding-top:15px;
 	list-style-type: none;
-	max-width: 700px;
+	max-width: 850px;
+	border: 3px solid #111;*/
 	
 }
 
