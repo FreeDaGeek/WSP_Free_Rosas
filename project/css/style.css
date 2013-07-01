@@ -220,21 +220,6 @@ padding: 10px;
 max-width: 200px;
 max-height: 180px;
 
-/*#gallery img{
- 	max-width: 30%;
-
- 	border: 3px solid #111;
- 	
- }
-
-
-#gallery{
-	float:right;
-	text-align: center;
-	padding-top:15px;
-	list-style-type: none;
-	max-width: 850px;
-	border: 3px solid #111;*/
 	
 }
 
@@ -249,20 +234,20 @@ max-height: 180px;
  /*=============DOGWALKING=============*/
 
 #intro{
-	padding-top: 10px;
-	margin:20px;
-	max-width: 700px;
-	padding-right: 55px;
-	float: right;
+	max-width: 800px;
+	margin-left: 80px;
 	text-indent: 10px;
+}
 
+#intro img{
+	float:left;
 }
 
 span{
 	padding-top: 15px;
 	font-size: 24px;
 	font-weight: bold;
-	float: right;
+	float: left;
 }
 
 
@@ -270,10 +255,8 @@ span{
  /*===========CONTACTUS=================*/
 
 #contact{
-		background-image: url(../images/linen_bg.jpg);
-		max-width: 400px;
-		text-align: right;
-		padding-right:80px;
+		max-width: 300px;
+		text-align: left;
 		margin: 0 auto;
 			
 		
@@ -288,7 +271,7 @@ span{
 	
 	div{
 		padding: 5px;
-		text-align: center;
+		text-align: right;
 		
 	}
 	
